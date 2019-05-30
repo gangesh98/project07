@@ -278,9 +278,20 @@
   font-size: 25;
   font-weight: bold;
 }
+.wrapper .announce .tran-one, .wrapper .announce .tran-two {
+  font-size: 20px;
+  width: 89%;
+  height: auto;
+  background: #0000001f;
+  padding: 20px;
+  text-align: left;
+  margin: 20px;
+  margin-right: -16px;
+}
 .wrapper .announce .text-trans p {
   text-align: left;
   padding-left: 20px;
+  font-size: 25px;
 }
 .wrapper .announce img {
   width: 25px;
@@ -288,10 +299,9 @@
   margin-left: 10px;
 }
 .wrapper .announce .btn-three {
-  background-color: transparent;
+  color: #fefefe;
   border: 1px solid white;
-  color: white;
-  padding: 10px 10px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -300,6 +310,195 @@
   margin-bottom: 20px;
   cursor: pointer;
   border-radius: 1px;
+  background: transparent;
+  margin-left: 35px;
+}
+.wrapper .upi-dead-line {
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #151720;
+  padding-left: 20px;
+  color: white;
+  margin-top: 100px;
+}
+.wrapper .upi-dead-line .upi-trans span {
+  margin-bottom: 50px;
+}
+.wrapper .upi-dead-line .upi-one, .wrapper .upi-dead-line .upi-two {
+  font-size: 20px;
+  width: 89%;
+  height: auto;
+  background: #0000001f;
+  padding: 20px;
+  text-align: left;
+  margin: 20px;
+  margin-right: -16px;
+}
+.wrapper .upi-dead-line .text-trans p {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 25px;
+}
+.wrapper .upi-dead-line img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+.wrapper .upi-dead-line .btn-four {
+  color: #fefefe;
+  border: 1px solid white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 22px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 1px;
+  background: transparent;
+  margin-left: 35px;
+}
+.wrapper .twitter {
+  width: 100%;
+  background: white;
+  text-align: center;
+  font-weight: bolder;
+  color: #ff6c00;
+  padding-top: 100px;
+}
+.wrapper .twitter span {
+  font-size: 30px;
+}
+.wrapper .twitter .twitter-head {
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid gray;
+  margin-left: 20px;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.wrapper .twitter .twitter-head .btn-five {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  padding: 0.85em 1em;
+  border: 1px solid #2ba6cb;
+  border-radius: 3px;
+  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  -webkit-appearance: none;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  color: #2ba6cb;
+  font-weight: bolder;
+  background-color: transparent;
+  color: #2ba6cb;
+  float: right;
+  position: relative;
+  top: -61px;
+  border: 1px solid;
+}
+.wrapper .twitter .twitter-head .btn-five span i {
+  padding: 10px;
+}
+.wrapper .twitter .twitter-head span {
+  color: black;
+  font-size: 20px;
+}
+.wrapper .twitter .twitter-head span p {
+  font-size: 10px;
+}
+.wrapper .twitter .twitter-head span img {
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 10px;
+  padding: 5px;
+}
+.wrapper .twitter .twitter-head span span::after {
+  content: "Sexual Right Initiative";
+}
+.wrapper .twitter .twitter-head span p {
+  font-size: 10px;
+  text-align: left;
+}
+.wrapper .arrow {
+  color: gray;
+  font-size: 30px;
+  text-align: center;
+  background: white;
+}
+.wrapper .mailing {
+  width: 100%;
+  height: 600px;
+  font-weight: bolder;
+  color: white;
+  font-size: 30px;
+  background-image: url(../images/web/back-image.jpg);
+}
+.wrapper .mailing span {
+  width: 100%;
+  padding-top: 70px;
+}
+.wrapper .mailing span p {
+  padding: 0px;
+}
+.wrapper .mailing img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.wrapper .mailing-list {
+  margin: 0 auto;
+}
+.wrapper .btn-five {
+  color: #fefefe;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 22px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #ffae00;
+  margin-left: 35px;
+  width: 200px;
+  height: 47px;
+}
+.wrapper .footer {
+  color: white;
+  background: #151720;
+  padding-left: 20px;
+}
+.wrapper .footer .btn-six {
+  color: #fefefe;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 22px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #ff6c00;
+  margin-left: 35px;
+  width: 200px;
+  height: 47px;
+}
+.wrapper .copyright {
+  color: white;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
