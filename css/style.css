@@ -1,4 +1,4 @@
-* hr {
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -10,14 +10,6 @@
   width: 100%;
   height: auto;
   background-color: #151720;
-}
-.wrapper .columns {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.wrapper .flex-container {
-  display: flex;
-  flex-direction: horizontal;
 }
 .wrapper .rw1 {
   display: flex;
@@ -48,11 +40,6 @@
 }
 .wrapper .navi {
   width: 100%;
-}
-.wrapper .navi img {
-  text-align: center;
-  padding: 15px;
-  padding-left: 8px;
 }
 .wrapper .my-cols4 {
   text-align: right;
@@ -121,16 +108,9 @@
 .wrapper .my-cols4 .navi-font1 {
   position: absolute;
   right: 60px;
-  top: 42px;
+  top: 83px;
 }
-.wrapper .my-cols5 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.wrapper .my-cols5 img {
-  width: 100%;
-}
-.wrapper .my-cols5 .btn-two {
+.wrapper .btn-two {
   background-color: transparent;
   border: 1px solid white;
   color: white;
@@ -144,10 +124,42 @@
   cursor: pointer;
   border-radius: 1px;
 }
-.wrapper .btn-body {
+.wrapper .back-row {
+  width: 100%;
+  height: 700px;
+}
+.wrapper .my-cols5 {
+  background-image: url(../images/Web/image.png);
+  padding-left: 0px;
+  padding-right: 0px;
+  /* Demo Styles */
+}
+.wrapper .my-cols5 img {
+  width: 100%;
+  height: auto;
+}
+.wrapper .my-cols5 .docs-example-orbit-slide {
+  padding: 2rem 4rem;
+  color: #fefefe;
+}
+.orbit-slide:nth-of-type(1) .wrapper .my-cols5 .docs-example-orbit-slide {
+  background: dodgerblue;
+}
+.orbit-slide:nth-of-type(2) .wrapper .my-cols5 .docs-example-orbit-slide {
+  background: rebeccapurple;
+}
+.orbit-slide:nth-of-type(3) .wrapper .my-cols5 .docs-example-orbit-slide {
+  background: darkgoldenrod;
+}
+.orbit-slide:nth-of-type(4) .wrapper .my-cols5 .docs-example-orbit-slide {
+  background: lightseagreen;
+}
+
+.btn-body {
   width: 100%;
 }
-.wrapper .btn1 {
+
+.btn1 {
   width: 100%;
   background-color: #ff6c00;
   border: none;
@@ -159,12 +171,13 @@
   font-size: 16px;
   margin: 0px;
 }
-.wrapper .center-img-overlap {
+
+.center-img-overlap {
   position: relative;
   background-image: url(../images/web/back-image.jpg);
   opacity: 0.3;
 }
-.wrapper .center-img-overlap:before {
+.center-img-overlap:after {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -174,25 +187,26 @@
   background: #000;
   z-index: 9;
 }
-.wrapper .center-img-overlap-one {
+
+.center-img-overlap-one {
   background: #ff6c00;
   color: white;
 }
-.wrapper .center-img-overlap-one span {
+.center-img-overlap-one span {
   margin-left: -15px;
 }
-.wrapper .center-img-overlap-one span img {
+.center-img-overlap-one span img {
   height: 15px;
   width: 20px;
   margin: 40px;
   margin-right: 5px;
 }
-.wrapper .center-img-overlap-one p {
+.center-img-overlap-one p {
   margin: 20px;
   margin-top: 10px;
   text-align: left;
 }
-.wrapper .center-img-overlap-one .btn-one {
+.center-img-overlap-one .btn-one {
   background-color: transparent;
   border: 1px solid white;
   color: white;
@@ -206,28 +220,30 @@
   cursor: pointer;
   border-radius: 1px;
 }
-.wrapper .head-text {
+
+.head-text {
   color: white;
 }
-.wrapper .head-text P {
+.head-text P {
   text-align: left;
 }
-.wrapper .head-text span {
+.head-text span {
   padding: 20px;
   font-weight: bolder;
   font-size: 20px;
   text-align: left;
 }
-.wrapper .head-text span img {
+.head-text span img {
   margin-left: 10px;
   width: 20px;
   height: 22px;
 }
-.wrapper .head-text p {
+.head-text p {
   text-align: left;
   padding: 20px;
 }
-.wrapper .our-partner-header {
+
+.our-partner-header {
   text-align: center;
   width: 100%;
   color: #ff6c00;
@@ -236,40 +252,41 @@
   font-weight: bold;
   padding-top: 70px;
 }
-.wrapper .our-partner-header .rw8 {
+.our-partner-header .rw8 {
   text-align: center;
 }
-.wrapper .our-partner-header .rw2 img {
+.our-partner-header .rw2 img {
   height: 50px;
   width: 170px;
 }
-.wrapper .our-partner-header .rw3 img {
+.our-partner-header .rw3 img {
   padding-left: 10px;
   height: 50px;
   width: 50px;
 }
-.wrapper .our-partner-header .rw4 img {
+.our-partner-header .rw4 img {
   height: 50px;
   width: 70px;
 }
-.wrapper .our-partner-header .rw5 img {
+.our-partner-header .rw5 img {
   text-align: right;
   height: 50px;
   width: 70px;
   margin-left: 70px;
 }
-.wrapper .our-partner-header .rw6 img {
+.our-partner-header .rw6 img {
   padding: 10px;
   height: 100px;
   width: 200px;
 }
-.wrapper .our-partner-header .rw7 img {
+.our-partner-header .rw7 img {
   padding: 10px;
   height: 100px;
   width: 200px;
   padding-left: 30px;
 }
-.wrapper .announce {
+
+.announce {
   color: white;
   width: 100%;
   background-color: #ff6c00;
@@ -278,7 +295,7 @@
   font-size: 25;
   font-weight: bold;
 }
-.wrapper .announce .tran-one, .wrapper .announce .tran-two {
+.announce .tran-one, .announce .tran-two {
   font-size: 20px;
   width: 89%;
   height: auto;
@@ -288,17 +305,17 @@
   margin: 20px;
   margin-right: -16px;
 }
-.wrapper .announce .text-trans p {
+.announce .text-trans p {
   text-align: left;
   padding-left: 20px;
   font-size: 25px;
 }
-.wrapper .announce img {
+.announce img {
   width: 25px;
   height: 25px;
   margin-left: 10px;
 }
-.wrapper .announce .btn-three {
+.announce .btn-three {
   color: #fefefe;
   border: 1px solid white;
   padding: 10px 25px;
@@ -313,7 +330,8 @@
   background: transparent;
   margin-left: 35px;
 }
-.wrapper .upi-dead-line {
+
+.upi-dead-line {
   width: 100%;
   text-align: left;
   font-size: 25px;
@@ -323,10 +341,10 @@
   color: white;
   margin-top: 100px;
 }
-.wrapper .upi-dead-line .upi-trans span {
+.upi-dead-line .upi-trans span {
   margin-bottom: 50px;
 }
-.wrapper .upi-dead-line .upi-one, .wrapper .upi-dead-line .upi-two {
+.upi-dead-line .upi-one, .upi-dead-line .upi-two {
   font-size: 20px;
   width: 89%;
   height: auto;
@@ -336,17 +354,17 @@
   margin: 20px;
   margin-right: -16px;
 }
-.wrapper .upi-dead-line .text-trans p {
+.upi-dead-line .text-trans p {
   text-align: left;
   padding-left: 20px;
   font-size: 25px;
 }
-.wrapper .upi-dead-line img {
+.upi-dead-line img {
   width: 25px;
   height: 25px;
   margin-left: 10px;
 }
-.wrapper .upi-dead-line .btn-four {
+.upi-dead-line .btn-four {
   color: #fefefe;
   border: 1px solid white;
   padding: 10px 25px;
@@ -361,7 +379,8 @@
   background: transparent;
   margin-left: 35px;
 }
-.wrapper .twitter {
+
+.twitter {
   width: 100%;
   background: white;
   text-align: center;
@@ -369,10 +388,13 @@
   color: #ff6c00;
   padding-top: 100px;
 }
-.wrapper .twitter span {
+.twitter span {
   font-size: 30px;
 }
-.wrapper .twitter .twitter-head {
+.twitter .container-font i {
+  padding: 15px;
+}
+.twitter .twitter-head {
   width: 90%;
   height: auto;
   margin-top: 20px;
@@ -382,61 +404,55 @@
   text-align: left;
   padding: 10px;
 }
-.wrapper .twitter .twitter-head .btn-five {
-  position: relative;
-  top: 20px;
-  display: inline-block;
+.twitter .twitter-head .btn-five {
   padding: 0.85em 1em;
-  border: 1px solid #2ba6cb;
-  border-radius: 3px;
-  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
-  transition: background-color 0.25s ease-out, color 0.25s ease-out;
-  font-size: 0.9rem;
-  -webkit-appearance: none;
-  line-height: 1;
-  text-align: center;
-  cursor: pointer;
-  background-color: transparent;
-  color: #2ba6cb;
-  font-weight: bolder;
   background-color: transparent;
   color: #2ba6cb;
   float: right;
   position: relative;
-  top: -61px;
+  top: -60px;
+  width: 100px;
+  height: 40px;
+  padding-bottom: 6p;
   border: 1px solid;
 }
-.wrapper .twitter .twitter-head .btn-five span i {
+.twitter .twitter-head .btn-five span i {
   padding: 10px;
 }
-.wrapper .twitter .twitter-head span {
+.twitter .twitter-head span {
   color: black;
   font-size: 20px;
 }
-.wrapper .twitter .twitter-head span p {
+.twitter .twitter-head span p {
   font-size: 10px;
 }
-.wrapper .twitter .twitter-head span img {
+.twitter .twitter-head span img {
   width: 50px;
   border-radius: 50%;
   float: left;
   margin-left: 10px;
   padding: 5px;
 }
-.wrapper .twitter .twitter-head span span::after {
+.twitter .twitter-head span span::after {
   content: "Sexual Right Initiative";
 }
-.wrapper .twitter .twitter-head span p {
+.twitter .twitter-head span p {
   font-size: 10px;
   text-align: left;
 }
-.wrapper .arrow {
+
+.arrow {
   color: gray;
   font-size: 30px;
   text-align: center;
   background: white;
 }
-.wrapper .mailing {
+.arrow i {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mailing {
   width: 100%;
   height: 600px;
   font-weight: bolder;
@@ -444,22 +460,27 @@
   font-size: 30px;
   background-image: url(../images/web/back-image.jpg);
 }
-.wrapper .mailing span {
+.mailing span {
   width: 100%;
   padding-top: 70px;
 }
-.wrapper .mailing span p {
+.mailing span p {
   padding: 0px;
 }
-.wrapper .mailing img {
+.mailing img {
   width: 20px;
   height: 20px;
   margin-left: 10px;
 }
-.wrapper .mailing-list {
+
+.mailing-list {
   margin: 0 auto;
 }
-.wrapper .btn-five {
+.mailing-list p {
+  font-size: 15px;
+}
+
+.btn-ten {
   color: #fefefe;
   padding: 10px 25px;
   text-align: center;
@@ -475,13 +496,9 @@
   width: 200px;
   height: 47px;
 }
-.wrapper .footer {
+
+.btn-seven {
   color: white;
-  background: #151720;
-  padding-left: 20px;
-}
-.wrapper .footer .btn-six {
-  color: #fefefe;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -493,11 +510,60 @@
   border-radius: 5px;
   background: #ff6c00;
   margin-left: 35px;
-  width: 200px;
-  height: 47px;
+  width: 170px;
+  height: 58px;
 }
-.wrapper .copyright {
+
+.footer {
+  padding-top: 70px;
   color: white;
+  background: #151720;
+}
+
+.footer-right {
+  float: left;
+}
+.footer-right img {
+  height: auto;
+  width: 100%;
+}
+
+.footer-left {
+  text-align: left;
+  padding-left: 15px;
+}
+.footer-left span {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer-left i {
+  margin: 10px;
+}
+
+.footer-content {
+  padding-left: 15px;
+}
+.footer-content p {
+  padding-left: 10px;
+}
+.footer-content li {
+  list-style: none;
+  padding: 10px;
+}
+.footer-content h2 {
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.copyright-section {
+  color: white;
+  padding-left: 20px;
+}
+.copyright-section p {
+  display: inline;
   text-align: center;
 }
 

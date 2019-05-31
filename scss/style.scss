@@ -1,4 +1,4 @@
-* hr { 
+*  { 
   margin:0px;
   padding: 0px;
 
@@ -15,15 +15,10 @@
   height:auto;
   background-color: #151720;
   
-  .columns{ padding-left:0px;
-    padding-right: 0px;}
+  
 
 
 
-    .flex-container {
-      display: flex;
-      flex-direction: horizontal;
-    }
 
     .rw1 {
       display: flex;
@@ -62,11 +57,7 @@
 }
 
 .navi { width: 100%;
-  img {
-    text-align: center;
-    padding: 15px;
-    padding-left: 8px;
-  }
+  
 
 }
 .my-cols4 {
@@ -137,22 +128,16 @@
   float: right;
 }
 .navi-font1{
-  position:absolute;
-  right: 60px;
-  top: 42px;
+  position: absolute;
+    right: 60px;
+    top: 83px;
 }
 
 
 
 }
 
-.my-cols5{
-  padding-left:0px;
-  padding-right: 0px;
-  img{
-    width:100%;
-  }
-  .btn-two {
+.btn-two {
     background-color:transparent; 
     border:1px solid white;
     color: white;
@@ -167,6 +152,54 @@
     border-radius:1px;
   }
 
+.back-row {
+  width:100%;
+  height:700px;
+  }
+
+.my-cols5{
+  background-image: url(../images/Web/image.png);
+  padding-left:0px;
+  padding-right: 0px;
+  
+
+
+
+  img{
+    width:100%;
+   height:auto;
+  }
+  
+
+
+
+  $white: #fefefe;
+
+/* Demo Styles */
+
+.docs-example-orbit-slide {
+  padding: 2rem 4rem;
+  color: $white;
+
+  .orbit-slide:nth-of-type(1) & {
+    background: dodgerblue;
+  }
+
+  .orbit-slide:nth-of-type(2) & {
+    background: rebeccapurple;
+  }
+
+  .orbit-slide:nth-of-type(3) & {
+    background: darkgoldenrod;
+  }
+
+  .orbit-slide:nth-of-type(4) & {
+    background: lightseagreen;
+  }
+}
+
+
+}
 
 }
 
@@ -195,7 +228,7 @@
   background-image: url(../images/web/back-image.jpg);
   opacity: 0.3;
 
-  &:before {
+  &:after {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -466,6 +499,11 @@ img{
   span{
     font-size: 30px;
   }
+  .container-font{
+    i{
+      padding: 15px;
+    }
+  }
 
   .twitter-head{
     width: 90%;
@@ -481,32 +519,18 @@ img{
 
 
 
-     .btn-five{
-        position: relative;
-        
-        top: 20px;
-        display: inline-block; 
 
-        padding: 0.85em 1em;
-        border: 1px solid #2ba6cb;
-        border-radius: 3px;
-        -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
-        transition: background-color 0.25s ease-out, color 0.25s ease-out;
-
-        font-size: 0.9rem;
-        -webkit-appearance: none;
-        line-height: 1;
-        text-align: center;
-        cursor: pointer;
-        background-color: transparent;
-        color: #2ba6cb;
-        font-weight: bolder;
-
-        background-color: transparent;
+       .btn-five{
+    padding: 0.85em 1em;
+    
+    background-color: transparent;
     color: #2ba6cb;
     float: right;
     position: relative;
-    top: -61px;
+    top: -60px;
+    width: 100px;
+    height: 40px;
+    padding-bottom: 6p;
     border: 1px solid;
 
 
@@ -552,6 +576,10 @@ img{
     font-size: 30px;
     text-align: center; 
     background: white;
+    i{
+      margin-left: 100px;
+      margin-right: 100px;
+    }
 
   
 
@@ -583,8 +611,11 @@ img{
   }
   .mailing-list{
     margin: 0 auto;
+    p{
+      font-size: 15px;
+    }
   }
-  .btn-five {
+  .btn-ten {
    color: #fefefe;
     padding: 10px 25px;
     text-align: center;
@@ -602,15 +633,11 @@ img{
 
 
   }
-  .footer{
-    color: white;
-    background: #151720;
-    padding-left: 20px;
-    img{
+  
 
-    }
-    .btn-six {
-   color: #fefefe;
+
+  .btn-seven {
+   color:white;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -622,19 +649,81 @@ img{
     border-radius: 5px;
     background: #ff6c00;
     margin-left: 35px;
-    width: 200px;
-    height: 47px;
+    width: 170px;
+    height: 58px;
 
 
   }
+
+
+
+  .footer{
+    padding-top: 70px;
+    color: white;
+    background: #151720;
+  
   }
-.copyright{
+  .footer-right{
+    
+    float: left;
+    img{
+       height: auto;
+    width: 100%;
+    }
+  }
+
+    .footer-left{
+      text-align: left;
+      padding-left: 15px;
+      span{
+        font-size: 15px;
+        font-weight: bolder;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      i{
+        margin:10px;
+      }
+
+    }
+
+
+
+
+    .footer-content{
+      padding-left: 15px;
+      p{
+        padding-left: 10px;
+      }
+      li{
+         list-style: none;
+         padding: 10px;
+      }
+      h2 {
+        padding-left: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+      }
+     
+    }
+   
+
+  
+
+
+
+
+
+.copyright-section {
   color: white;
-  text-align: center;
-}
+    padding-left: 20px;
+    p{
 
+    display: inline;
+    text-align: center;
 }
-
+    
+}
 
 
 
