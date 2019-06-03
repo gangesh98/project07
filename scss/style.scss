@@ -4,6 +4,7 @@
 
 }
 
+  
 .wrapper  {
 
   padding-left:0px;
@@ -21,15 +22,20 @@
 
 
     .rw1 {
+      color: white;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       width: 100%;
-      margin-left: 0px;
-      margin-right: 0px;
+      /*margin-left: 0px;
+      margin-right: 0px;*/
     }
 
     .my-cols1 {
+      text-align: right;
+      width: 50%;
+    float: left;
+      
 
      span {
       color: white;
@@ -46,10 +52,12 @@
 
  }
  .my-cols2 {
-  padding-left: 45px;
+  /*padding-left: 45px;*/
+  width: 50%;
+    float: right;
 
   span {
-    color: white;
+    
     color: white;
     font-size: 10px; 
 
@@ -127,6 +135,7 @@
 .my-title-bar{
   float: right;
 }
+
 .navi-font1{
   position: absolute;
     right: 60px;
@@ -154,7 +163,7 @@
 
 .back-row {
   width:100%;
-  height:700px;
+  height:413px;
   }
 
 .my-cols5{
@@ -577,8 +586,9 @@ img{
     text-align: center; 
     background: white;
     i{
-      margin-left: 100px;
-      margin-right: 100px;
+     margin-left: 59px;
+    margin-right: 124px;
+    text-align: right;
     }
 
   
@@ -709,6 +719,12 @@ img{
    
 
   
+.bullet-position{
+  position: relative;
+    text-align: right;
+    top: -95px;
+    right: 35px;
+  }
 
 
 
@@ -716,20 +732,39 @@ img{
 
 .copyright-section {
   color: white;
-    padding-left: 20px;
+    padding-left: 40px;
+    text-align: center;
     p{
 
     display: inline;
     text-align: center;
 }
+
+
     
 }
 
 
+.btn-10{
+  border-radius:5px;
+  color: white;
+    text-align: left;
+    margin-left: 10px;
+    border: 1px solid white;
+    width: 111px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    top: -60px;
+    
+}
+.orbit-cap{
+  height: 340px;
+}
 
-
-
-
+.orbit-arrow{
+  padding: 0px;
+}
 
 
 

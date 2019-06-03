@@ -12,12 +12,18 @@
   background-color: #151720;
 }
 .wrapper .rw1 {
+  color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
+  /*margin-left: 0px;
+  margin-right: 0px;*/
+}
+.wrapper .my-cols1 {
+  text-align: right;
+  width: 50%;
+  float: left;
 }
 .wrapper .my-cols1 span {
   color: white;
@@ -31,10 +37,11 @@
   height: 10px;
 }
 .wrapper .my-cols2 {
-  padding-left: 45px;
+  /*padding-left: 45px;*/
+  width: 50%;
+  float: right;
 }
 .wrapper .my-cols2 span {
-  color: white;
   color: white;
   font-size: 10px;
 }
@@ -126,7 +133,7 @@
 }
 .wrapper .back-row {
   width: 100%;
-  height: 700px;
+  height: 413px;
 }
 .wrapper .my-cols5 {
   background-image: url(../images/Web/image.png);
@@ -448,8 +455,9 @@
   background: white;
 }
 .arrow i {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 59px;
+  margin-right: 124px;
+  text-align: right;
 }
 
 .mailing {
@@ -558,13 +566,42 @@
   font-weight: bolder;
 }
 
+.bullet-position {
+  position: relative;
+  text-align: right;
+  top: -95px;
+  right: 35px;
+}
+
 .copyright-section {
   color: white;
-  padding-left: 20px;
+  padding-left: 40px;
+  text-align: center;
 }
 .copyright-section p {
   display: inline;
   text-align: center;
+}
+
+.btn-10 {
+  border-radius: 5px;
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+  border: 1px solid white;
+  width: 111px;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  top: -60px;
+}
+
+.orbit-cap {
+  height: 340px;
+}
+
+.orbit-arrow {
+  padding: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
